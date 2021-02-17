@@ -1,0 +1,537 @@
+@media(max-width:1200px){
+    .container {
+        max-width: 950px;
+    }
+}
+@media(max-width:1100px){
+    .container {
+        max-width: 850px;
+    }
+}
+@media(max-width:1062px){
+    .cont-2 img{
+        height: 203px!important;
+    }
+}
+@media(max-width:991px){
+    .burger{
+        display:block!important; 
+    }
+    .burger.open{
+        display:none!important; 
+    }
+   
+    .main-nav{
+        display: flex!important;
+    }
+
+    .main-nav.open{
+        display: none!important;
+    }
+
+    .navbar-brand.open{
+        display: none;
+    }
+
+    .navbar {
+        padding: .5rem 1rem!important;
+    }
+    .navbar-brand{
+        margin-right: 0rem!important;
+        margin-right: 0rem!important;
+        margin-left:  0rem!important;
+    }
+    .container {
+        max-width: 950px;
+    }
+    
+   
+    .l-navbar.open{
+        display: block!important;
+    }
+    .l-navbar.open,.menu-btn{
+        display: block!important;
+    }
+    .menu-btn_burger.open{
+        display: block!important;
+    }
+    .menu-btn.open{
+        display: block!important;
+    }
+   
+    .slide1{
+        margin-top: 104px!important;
+    }
+    
+    .navbar.open{
+        padding: .2rem .2rem!important;
+    }
+    .navbar.open1{
+        padding: .5rem 1rem!important;
+    }
+
+    .burger-1.open{
+        display: block!important;
+    }
+    .main-nav-1.open{
+        display: block!important;
+    }
+    .containe{   
+        flex-direction: column;
+    }
+    .cont-2 img{
+        height: auto!important;
+    }
+    .carousel-indicators {
+        position: absolute;
+        right: 0;
+        /*bottom: -5px!important;*/
+    }
+
+    .carousel-control-prev {
+        display: none!important;
+    }
+
+    .carousel-control-next{
+        display: none!important;
+    }
+
+
+    
+}
+@media(max-width:899px){ 
+    .main-div-2{
+        flex-direction: column;
+    }
+    .main-div-1{
+        border-radius: 15px 15px 0px 0px!important;
+    }
+    
+}
+@media(max-width:869px){ 
+    .menu-btn_burger{
+        right: 20%!important;
+    }
+}
+@media(max-width:699px){ 
+    .menu-btn_burger{
+        right: 22%!important;
+    }
+}
+@media(max-width:599px){ 
+    .menu-btn_burger{
+        right: 25%!important;
+    }
+}
+@media(max-width:579px){ 
+    .card-title {
+        margin-bottom: 0rem;
+        font-size: 1.1rem!important;
+    }
+}
+
+@media(max-width:549px){ 
+    .card-title {
+       
+        font-size: 18px!important;
+    }
+}
+
+@media(max-width:499px){ 
+    .menu-btn_burger{
+        right: 28%!important;
+    }
+
+    .card-title {
+       
+        font-size: 17px!important;
+    }
+
+    .money{
+        font-size: 13px!important;
+    }
+    
+    .off{
+        font-size: 13px!important;
+    }
+    
+    .strike{
+        font-size: 13px!important;
+        
+    }
+    
+}
+
+@media(max-width:449px){ 
+    .image-main{
+        width: 50px!important;
+    }
+
+    .image-m {
+        width: 120px!important;
+    }
+}
+
+@media(max-width:399px){ 
+    .menu-btn_burger{
+        right: 30%!important;
+    }
+
+
+    .clock{
+        padding: 2px 5px;
+    }
+    .t-1{
+        font-size: 25px!important;
+    }
+    .b-1{
+        background-color: blue;
+        color: white;
+        padding: 2px 10px;
+        font-size: 16px!important;
+    }
+    .w2{
+        display: grid;
+    }
+    .w3{
+        margin-bottom: 60px;
+    }
+    .w3-left {
+        float: left!important;
+    }
+    
+    .w3-right {
+        float: right!important;
+    }
+
+    .image-m {
+        width: 110px!important;
+    }
+}
+
+@media(max-width:374px){ 
+    .card-title {
+        
+        font-size: 17px!important;
+    }
+
+    .money{
+        font-size: 12px!important;
+    }
+
+    .off{
+        font-size: 12px!important;
+    }
+
+    .strike{
+        font-size: 12px!important;
+        
+    }
+    .image-main{
+        width: 45px!important;
+    }
+
+}
+
+@media(max-width:369px){ 
+    .menu-btn_burger{
+        right: 32%!important;
+    }
+}
+
+@media(max-width:349px){ 
+    p {
+        font-size: 1.0rem!important;
+    }
+    .image-m {
+        width: 100px!important;
+    }
+}
+
+@media(max-width:339px){ 
+    .card-title {
+        
+        font-size: 16px!important;
+    }
+
+    .money{
+        font-size: 11px!important;
+    }
+
+    .off{
+        font-size: 11px!important;
+    }
+
+    .strike{
+        font-size: 11px!important;
+        
+    }
+
+    
+
+
+}
+
+@media(max-width:330px){ 
+    .menu-btn_burger{
+        right: 34%!important;
+    }
+    .image-m {
+        width: 90px!important;
+    }
+    
+}
+@media(max-width:299px){ 
+    .navbar {
+        padding: .2rem .2rem!important;
+    }
+
+    .main-nav a {
+        font-size: 15px!important;
+    }
+
+    .line{  
+        width: 20px!important;
+        
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem!important;
+    }
+    
+    .slide1{
+        margin-top: 90px!important;
+    }
+    .menu-btn_burger{
+        right: 36%!important;
+    }
+
+
+    .card-title {
+        
+        font-size: 15px!important;
+    }
+
+    .money{
+        font-size: 10px!important;
+    }
+
+    .off{
+        font-size: 10px!important;
+    }
+
+    .strike{
+        font-size: 10px!important;
+        
+    }
+    .image-main{
+        width: 40px!important;
+    }
+
+
+
+    .clock{
+        padding: 2px 4px!important;
+        font-size:15px!important;
+
+    }
+    .t-1{
+        font-size: 20px!important;
+    }
+    .b-1{
+        background-color: blue;
+        color: white;
+        padding: 2px 10px;
+        font-size: 14px!important;
+    }
+    .w2{
+        display: grid;
+    }
+    .w3{
+        margin-bottom: 60px;
+    }
+    .w3-left {
+        float: left!important;
+    }
+
+    .w3-left img {
+        width: 20px!important;
+    }
+    
+    .w3-right {
+        float: right!important;
+    }
+
+    .image-m {
+        width: 80px!important;
+    }
+
+    .box{
+        width: 270px!important;
+    }
+
+    
+}
+@media(max-width:290px){ 
+    p {
+        font-size: 0.8rem!important;
+    }
+}
+@media(max-width:289px){ 
+    .menu-btn_burger{
+        right: 38%!important;
+    }
+
+}
+
+@media(max-width:279px){ 
+
+    .image-m {
+        width: 70px!important;
+    }
+}
+
+@media(max-width:269px){ 
+    .card-title {
+        
+        font-size: 14px!important;
+    }
+
+    .money{
+        font-size: 9px!important;
+    }
+
+    .off{
+        font-size: 9px!important;
+    }
+
+    .strike{
+        font-size: 9px!important;
+        
+    }
+    .image-main{
+        width: 35px!important;
+    }
+
+}
+@media(max-width:259px){ 
+    .menu-btn_burger{
+        right: 40%!important;
+    }
+    .menu-btn_burger::before,.menu-btn_burger::after{
+        width: 40px;
+        height: 4px;
+    }
+}
+
+
+
+@media(max-width:250px){ 
+    p {
+        font-size: 0.7rem!important;
+    }
+
+    .clock{
+        padding: 2px 5px;
+    }
+    .t-1{
+        font-size: 15px!important;
+    }
+    .b-1{
+        background-color: blue;
+        color: white;
+        padding: 1px 8px;
+        font-size: 12px!important;
+    }
+    .w2{
+        display: grid;
+    }
+    .w3{
+        margin-bottom: 60px;
+    }
+    .w3-left {
+        float: left!important;
+    }
+    
+    .w3-right {
+        float: right!important;
+    }
+
+    .image-m {
+        width: 60px!important;
+    }
+}
+@media(max-width:239px){ 
+    .menu-btn_burger{
+        right: 42%!important;
+    }
+    .menu-btn_burger::before,.menu-btn_burger::after{
+        width: 30px;
+        height: 3px;
+    }
+    
+    .card-title {
+            
+        font-size: 13px!important;
+    }
+
+    .money{
+        font-size: 8px!important;
+    }
+
+    .off{
+        font-size: 8px!important;
+    }
+
+    .strike{
+        font-size: 8px!important;
+        
+    }
+    
+    
+}
+
+@media(max-width:229px){ 
+    .menu-btn_burger{
+        right: 44%!important;
+    }
+    .menu-btn_burger::before,.menu-btn_burger::after{
+        width: 40px;
+        height: 2px;
+    }
+
+    p {
+        font-size: 0.6rem!important;
+    }
+
+    .image-m {
+        width: 50px!important;
+    }
+}
+@media(max-width:217px){ 
+    .navbar {
+        padding: .1rem .1rem!important;
+    }
+
+    .main-nav a {
+        font-size: 10px!important;
+    }
+
+    .line{  
+        width: 15px!important;
+        
+    }
+
+    .navbar-brand {
+        font-size: 1.2rem!important;
+    }
+    .form-control {
+        padding: 0rem 0rem!important;
+        font-size: 0.9rem!important;
+    }
+
+    .menu-btn_burger.open{
+        display: none!important;
+    }
+    /*175*/
+}
