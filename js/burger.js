@@ -9,12 +9,15 @@ menuBtn1 = document.querySelector('.menu-btn_burger');
 
 menuBtn2 = document.querySelector('.menu-btn');
 
+menuBtn3 = document.querySelector('body');
+
 // side navbar burger
 burger.addEventListener('click', () => {
 
     menuBtn.classList.add('open');
     menuBtn1.classList.add('open');
     menuBtn2.classList.add('open');
+    menuBtn3.classList.add('open');
 });
 // close nav burger
 burger1.addEventListener('click', () => {
@@ -22,6 +25,7 @@ burger1.addEventListener('click', () => {
     menuBtn.classList.remove('open');
     menuBtn1.classList.remove('open');
     menuBtn2.classList.remove('open');
+    menuBtn3.classList.remove('open');
 
 });
 // close nav burger
@@ -30,6 +34,7 @@ burger2.addEventListener('click', () => {
     menuBtn.classList.remove('open');
     menuBtn1.classList.remove('open');
     menuBtn2.classList.remove('open');
+    menuBtn3.classList.remove('open');
 
 });
 // small nav bar burger
@@ -38,6 +43,7 @@ burger3.addEventListener('click', () => {
     menuBtn.classList.add('open');
     menuBtn1.classList.add('open');
     menuBtn2.classList.add('open');
+    menuBtn3.classList.add('open');
 });
 //top scroll start 
 mybutton = document.getElementById("myBtn");
@@ -47,7 +53,7 @@ menun3 = document.querySelector('.main-nav');
 menun4 = document.querySelector('.navbar');
 menun5 = document.querySelector('.burger-1');
 menun6 = document.querySelector('.main-nav-1');
-menun4 = document.querySelector('.navbar');
+menun7 = document.querySelector('body');
 window.onscroll = function () { scrollFuncion() };
 
 function scrollFuncion() {
