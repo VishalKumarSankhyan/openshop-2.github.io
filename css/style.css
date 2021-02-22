@@ -36,9 +36,10 @@ p{
 .navbar-brand{
     color:rgb(255, 255, 255)!important;
     font-size: 1.7rem;
-    font-family: 'Poppins', sans-serif;
-    margin-right: 4rem;
-    margin-left: 4rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight:500;
+    margin-right: 2rem;
+    margin-left: 2rem;
 }
 
 .fixed-top {
@@ -50,7 +51,7 @@ p{
 }
 .navbar {
     padding: 0rem 0rem;
-    transition: transform 5s ease;
+    transition: transform 0.5s cubic-bezier(0, 0, 0.3, 1) 0s;
 }
 .nav-item a{
     color:rgb(255, 255, 255)!important;
@@ -92,9 +93,92 @@ p{
     color: black;
 }
 .search1{
-    color: black;
+    color: #15c9f6;
     background: white;
     font-size: 20px;
+    border-left: 0px solid;
+}
+
+.search1:hover{
+    color: #15c9f6!important;
+}
+
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+     border-color: transparent!important; 
+    outline: 0;
+     box-shadow: 0 0 0 0rem rgb(0 123 255 / 25%); 
+}
+
+
+/*auto complete start*/
+.autocomplete {
+    /*the container must be positioned relative:*/
+    position: relative;
+    display: inline-block;
+  }
+  input {
+    border: 1px solid transparent;
+    background-color: #f1f1f1;
+    padding: 10px;
+    font-size: 16px;
+  }
+  input[type=submit] {
+    background-color: DodgerBlue;
+    color: #fff;
+  }
+
+  .autocomplete-items {
+    position: absolute;
+    border-bottom: none;
+    border-top: none;
+    z-index: 99;
+    /*position the autocomplete items to be the same width as the container:*/
+    top: 98%;
+    left: 0;
+    right: 0;
+  }
+  input[type=text] {
+      background-color: #fff;
+      width: 100%;
+  }
+  
+  .autocomplete-items div {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #fff;
+  }
+  .autocomplete-items div:hover {
+    /*when hovering an item:*/
+    background-color: #f7f7f7;
+  }
+  .autocomplete-active {
+    /*when navigating through the items using the arrow keys:*/
+    background-color: DodgerBlue !important;
+    color: #ffffff;
+  }
+  
+/*auto complete end*/
+
+.can1 svg{
+    position: absolute;
+    right: 40px;
+    top: 3px;
+    background-color: #fFFF!important;
+}
+
+.can1{
+    z-index: 6;
+    display: none;
+    fill: currentColor;  
+    color: #7a78789f!important;
+}
+.can1.open{
+    display:block!important;
+}
+.comment-2{
+    border-right: 0px solid;
 }
 
 /*burger start*/
@@ -145,7 +229,7 @@ p{
     color: black;
 }
 .drop1 {
-    margin-left: 15px!important;
+    margin-left: 10px!important;
    
 }
 .drop1 a{
@@ -174,11 +258,68 @@ p{
     font-size: 20px;
     
 }
+.dropdown-menu{
+    border: 0px solid rgba(0,0,0,.15)!important;
+
+}
+.dropdown-menu::after{
+    background-color: #fff;
+    position:absolute;
+    width:20px;
+    height: 20px;
+    top: -5%;
+    left: 25%;
+    margin-left: -25px;
+    content: '';
+    transform: rotate(45deg);
+    
+}
+
+.d1 a{
+    margin: 7px 10px;
+    color: #15c9f6!important;
+    font-weight: 550;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    height: 32px;
+    padding: 3px 20px;
+    border: 1px solid #dbdbdb;
+    font-size: 18px;
+}
+.d2 a{
+    font-size: 18px;
+    margin: 10px 10px;
+}
+
+.s11{
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transition: -webkit-transform .3s;
+    transition: transform .3s;
+    transition: transform .3s,-webkit-transform .3s;
+    margin: auto;
+    margin-left: 8px;
+}
+.s11.s111{
+    -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+    
+}
+
+.s-1.shoow{
+    display: block!important;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.4);
+}
+.s-2.shoow{
+    display: block!important;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+}
 
 
 .l-navbar{
     will-change: transform;
-    transition: transform .4s ease-out;
+    transition: transform 0.5s cubic-bezier(0, 0, 0.3, 1) 0s;
     transform: translate3d(-102%,0,0);
     width: 80%;
     height: 100vh;
@@ -236,7 +377,6 @@ p{
     width: 90%;
 }
 .menu-btn_burger::before,.menu-btn_burger::after{
-    
     content: '';
     position: absolute;
     width: 50px;
@@ -297,16 +437,36 @@ p{
 
 /*link slider start*/
 .slide1{
+    box-shadow: 0 1px 1px 0 rgb(0 0 0 / 16%);
     margin-top: 52px;
 }
-div.scrollmenu {
+.scrollmenu {
     background-color: #fff;
-    overflow: auto;
+    overflow: hidden;
     white-space: nowrap;
     display: flex; 
 }
-  
-div.scrollmenu a {
+/*
+::-webkit-scrollbar{
+    width: 5px;
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #fff;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #634a4a;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color: #15c9f6;
+    border-radius: 50px;
+}
+*/
+
+.scrollmenu a {
     display: inline-block;
     color: rgb(0, 0, 0);
     text-align: center;
@@ -317,7 +477,7 @@ div.scrollmenu a {
 
 .new1{
     text-align: center;
-    padding: 0px 20px;/*27*/
+    padding: 0px 30px;/*27*/
 
 }
 .new1:hover{
@@ -335,12 +495,12 @@ div.scrollmenu a {
     padding: .0rem 0rem!important;
 }
 .new1 h2{
-    margin-top: 8px;
-    font-size: 12px;
+    margin: 10px 0px;
+    font-size: 17px;
 }
 .l-scroll{
-    padding-top: 4px;
-    width: 30px;
+    padding-top: 10px;
+    width: 65px;
 }
 /*link slider end*/
 /*
@@ -375,18 +535,32 @@ div.scrollmenu a {
     right: 0;
     bottom: -10px!important;
 }
+
+.c{
+    width: auto!important;
+}
 .fa-angle-left:before {
     font-size: 70px;
     color: rgb(0, 204, 255)!important;
+    background-color: white!important;
+    padding-left: 5px;
+    padding-right: 8px;
 }
 .fa-angle-right:before {
     font-size: 70px;
     color: rgb(0, 204, 255)!important;
+    background-color: white!important;
+    padding-left: 8px;
+    padding-right: 5px;
 }
+    
 
 .image-1{
-    /*height: auto;*/
+    height: 280px;
     width: 100%;
+}
+.carousel-1{
+    margin: 8px;
 }
 
 /*scroll top btn start*/
@@ -413,6 +587,25 @@ div.scrollmenu a {
 
 
 /*services start*/
+.btn-left{
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    left: 0px;
+    z-index: 6;
+    margin-top: 45px;
+}
+.btn-right{
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+    display: none;
+    position: absolute;
+    z-index: 6;
+    margin-top: 45px;
+    right: 0;
+}
+
+
+
 .header-extradiv{
     width: 100% ; height: auto;
     margin: 20px 0;
@@ -495,6 +688,9 @@ div.scrollmenu a {
 
 
 /*card section start */
+.show_1{
+    margin-top: 5px;
+}
 .containe{   
     display: flex;
 }
@@ -733,6 +929,7 @@ p{
 .btn-floating i::before{
     color: white!important;
     font-size: 30px;
+    background: #2dcff7!important;
 }
 
 .btn-sm{
@@ -831,6 +1028,27 @@ p{
 }
 /* product slider end*/
 
+/* product show start 2*/
+.containe2{
+    display: flex;
+}
+.btn2-left{
+    display: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+    position: absolute;
+    left: 0px;
+    z-index: 6;
+    margin-top: 45px;
+}
+.btn2-right{
+    display: none;
+    box-shadow: 0 0 2px 0 rgba(0,0,0,0.3);
+    position: absolute;
+    z-index: 6;
+    margin-top: 45px;
+    right: 0;
+}
+/* product show end 2*/
 
 
 /*
@@ -881,4 +1099,16 @@ hide scroll bar but not functionality
     scrollbar-width:none;
 
 }
+
+
+
+
+    -webkit-transform: rotate(270deg);
+    transform: rotate(270deg);
+    transition: -webkit-transform .1s;
+    transition: transform .1s;
+    transition: transform .1s,-webkit-transform .1s;
+    margin: 7px 0 0 8px;
+
+    450dg
 */
