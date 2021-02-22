@@ -15,6 +15,10 @@
     integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw=="
     crossorigin="anonymous" />
 
+  <!-- google font style-->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css\phone.css">
   <link rel="stylesheet" href="css\style.css">
 
@@ -40,7 +44,7 @@
     <div class="header" id="topheader">
       <nav class="">
         <div class="slide" id="">
-          
+
           <ul class="l-navbar">
 
             <li class="nav-item2">
@@ -82,8 +86,8 @@
               <div class="hr1">
                 <hr>
               </div>
-              
               <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>Log Out</p>
+              <br>
               <br>
             </li>
           </ul>
@@ -95,7 +99,7 @@
     <!--main navbar start-->
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
 
-      <div class="container text-uppercase p--2">
+      <div class="container p--2">
 
 
         <div class="burger">
@@ -127,7 +131,18 @@
             <div class="line-1"></div>
           </div>
 
-          <input type="search" class="form-control comment-2" placeholder="Search">
+          <input type="text" class="form-control comment-2" id="myInput" onkeyup="getsearchvalue()"
+            placeholder="Search">
+          <div class="can1">
+            
+            <svg focusable="false" onclick="clearsearch()" xmlns="http://www.w3.org/2000/svg" width="34" height="34"
+              viewBox="0 0 16 27">
+              <path
+                d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z">
+              </path>
+            </svg>
+          </div>
+
           <div class="input-group-append">
             <a class="input-group-text search1" href="#"><i class="fa fa-search" aria-hidden="true"></i></a>
           </div>
@@ -141,15 +156,16 @@
         </div>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav ml-auto text-uppercase">
+          <ul class="navbar-nav ml-auto">
 
             <!-- Dropdown menu start-->
-            <li class="nav-item dropdown drop1">
-              <a class="nav-link dropdown-toggle n-1" href="#" id="navbardrop" data-toggle="dropdown">
+            <li class="nav-item dropdown drop1 d1">
+              <a class="nav-link1 " href="#">
                 Login
               </a>
-              <div class="dropdown-menu d1">
+              <div class="dropdown-menu s-1 d1">
                 <p class="dropdown-item" href="#">New Customer ? <span href="#">Sign Up</span> </p>
+
                 <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>My Account</p>
                 <p class="dropdown-item" href="#"><i class="fa fa-archive"></i>Orders</p>
                 <p class="dropdown-item" href="#"><i class="fa fa-heart"></i>Wishlist</p>
@@ -157,11 +173,17 @@
               </div>
             </li>
 
-            <li class="nav-item dropdown drop1">
-              <a class="nav-link dropdown-toggle n-2" href="#" id="navbardrop" data-toggle="dropdown">
+            <li class="nav-item dropdown drop1 d2">
+              <a class="nav-link1 dropdown-toggle1" href="#" id="navbardrop" data-toggle="dropdown">
                 More
+                <div class="s11">
+                  <svg width="7" height="10" viewBox="0 0 16 27" xmlns="http://www.w3.org/2000/svg" class="svv1">
+                    <path d="M16 23.207L6.11 13.161 16 3.093 12.955 0 0 13.161l12.955 13.161z" fill="#fff"
+                      class="_1zrN4q"></path>
+                  </svg>
+                </div>
               </a>
-              <div class="dropdown-menu d2">
+              <div class="dropdown-menu s-2 d2">
                 <p class="dropdown-item" href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notification</p>
                 <p class="dropdown-item" href="#"><i class="fa fa-map" aria-hidden="true"></i>Select your address</p>
                 <p class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>24 x 7 Customer Care
@@ -193,11 +215,12 @@
   <!--link slider start-->
   <section class="slide1">
     <div class="scrollmenu">
-
+      <!--
       <div class="new1">
         <img src="images\cement/birla-white-cement.png" alt="cement" width="19px">
         <h2 href="#">Cement</h2>
       </div>
+      -->
 
       <div class="new1">
         <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
@@ -218,25 +241,26 @@
         <img src="images\cement/rain-shower.png" alt="cement" class="l-scroll">
         <h2 href="#">Shower</h2>
       </div>
-
+      <!--
       <div class="new1">
         <img src="images\cement/asianpaints royale shyne.png" alt="cement" width="19px">
         <h2 href="#">Paint</h2>
       </div>
-
+    -->
       <div class="new1">
         <img src="images\cement/sink.png" alt="cement" class="l-scroll">
         <h2 href="#">Shink</h2>
       </div>
-
+      <!--
       <div class="new1">
-        <img src="images\cement/tmt bars.png" alt="cement"  width="19px">
+        <img src="images\cement/tmt bars.png" alt="cement" width="19px">
         <h2 href="#">Bars</h2>
       </div>
+      -->
 
       <div class="new1">
-        <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
-        <h2 href="#">Light</h2>
+        <img src="images\cement/cera brass.png" alt="cement" class="l-scroll">
+        <h2 href="#">brass</h2>
       </div>
 
       <div class="new1">
@@ -258,20 +282,23 @@
         <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
         <h2 href="#">Light</h2>
       </div>
+      <!--
       <div class="new1">
         <img src="images\cement/asianpaints royale shyne.png" alt="cement" width="19px">
         <h2 href="#">Paint</h2>
       </div>
+    -->
 
       <div class="new1">
         <img src="images\cement/sink.png" alt="cement" class="l-scroll">
         <h2 href="#">Shink</h2>
       </div>
-
+      <!--
       <div class="new1">
-        <img src="images\cement/tmt bars.png" alt="cement"  width="19px">
+        <img src="images\cement/tmt bars.png" alt="cement" width="19px">
         <h2 href="#">Bars</h2>
       </div>
+    -->
 
       <div class="new1">
         <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
@@ -282,13 +309,13 @@
         <img src="images\cement/moduler switch.png" alt="cement" class="l-scroll">
         <h2 href="#">Switch</h2>
       </div>
-      
+
     </div>
   </section>
   <!--link slider end-->
 
   <!--  carousel start-->
-  <section>
+  <section class="carousel-1">
     <div id="demo" class="carousel slide " data-ride="carousel" touch="true">
 
       <!-- Indicators -->
@@ -340,8 +367,13 @@
 
 
   <!-- show section start-->
-  <section>
+  <section class="show_1">
     <div class="containe  d-flex">
+
+      <div class="controls-tops">
+        <a class="btn-left" onclick="leftfunction()"><i class="fa fa-angle-left"></i></a>
+        <a class="btn-right" onclick="rightfunction()"><i class="fa fa-angle-right"></i></a>
+      </div>
 
       <div class="col-lg-6 col-md-12 col-12 cardmain d-flex">
 
@@ -372,8 +404,33 @@
 
       </div>
 
-      <div class="col-lg-6 col-md-12 col-12 cont-2">
-        <img src="images/cement/cera ss.png" alt="brand">
+
+      <div class="col-lg-6 col-md-12 col-12 cardmain d-flex">
+
+        <div class="card" style="width:400px">
+          <img src="images/cement/modern-light5s.png" class="image-main" alt="Ambuja Cement" id="image-main">
+          <div class="card-body">
+            <h4 class="card-title">Modern Light</h4>
+            <p><span class="money">125&#8377 </span> <del class="strike"> 2150</del> <span class="off">47%off</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width:400px">
+          <img src="images/cement/asian paints aspira .png" class="image-main" alt="Ambuja Cement" id="image-main">
+          <div class="card-body">
+            <h4 class="card-title">asian paint</h4>
+            <p><span class="money">635&#8377 </span> <del class="strike">990</del> <span class="off">12% off</span></p>
+          </div>
+        </div>
+
+        <div class="card" style="width:400px">
+          <img src="images\cement/Cera Shower Panel.png" class="image-main" alt="Ambuja Cement" id="image-main">
+          <div class="card-body">
+            <h4 class="card-title">Shower Panel</h4>
+            <p><span class="money">530&#8377 </span> <del class="strike"> 960</del> <span class="off">11% off</span></p>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -752,7 +809,13 @@
 
   <!-- show section start-->
   <section class="nww-1">
-    <div class="containe  d-flex">
+    <div class="containe2  d-flex">
+
+      <div class="">
+        <a class="btn2-left" onclick="leftfunction2()"><i class="fa fa-angle-left"></i></a>
+        <a class="btn2-right" onclick="rightfunction2()"><i class="fa fa-angle-right"></i></a>
+      </div>
+
       <div class="col-lg-6 col-md-12 col-12 cardmain d-flex">
 
         <div class="card" style="width:400px">
@@ -783,7 +846,7 @@
       </div>
 
 
-      
+
       <div class="col-lg-6 col-md-12 col-12 cardmain d-flex">
 
         <div class="card" style="width:400px">
@@ -817,7 +880,7 @@
   </section>
 
 
-<!-- best offers start-->
+  <!-- best offers start-->
   <section class="bg1-3">
     <div class="w2 container">
       <div class="w-1">
@@ -882,7 +945,8 @@
 
       </div>
   </section>
-<!-- best offers end-->
+
+  <!-- best offers end-->
 
   <!-- scrolltop top start-->
   <div class="scrolltop float-right">
@@ -893,6 +957,8 @@
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
   <script src="js\burger.js"></script>
+  <script src="js/suggestion.js"></script>
+
 
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
