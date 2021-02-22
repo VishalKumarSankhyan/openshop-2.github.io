@@ -80,7 +80,8 @@
         display: block!important;
     }
     .containe{   
-        flex-direction: column;
+        /*flex-direction: column;*/
+        overflow: auto;
     }
     .cont-2 img{
         height: auto!important;
@@ -98,8 +99,50 @@
     .carousel-control-next{
         display: none!important;
     }
+    .can1 svg.open{
+        right: 73px;
+    }
 
+    .l-scroll{
+        padding-top: 10px;
+        width: 30px!important;
+    }
 
+    .new1 h2{
+        margin: 8px 0px!important;
+        font-size: 12px!important;
+    }
+    .new1 {
+        padding: 0px 20px!important;
+    }
+    .scrollmenu {
+        overflow: auto!important;
+    }
+
+    .image-1{
+        height: 100%!important;
+        width: 100%!important;
+    }
+
+    .carousel-1{
+        margin: 0px!important;
+    }
+    .btn-left.open{
+        display: block!important;
+    }
+    .btn-right.open{
+        display: block!important;
+    }
+
+    .btn2-left.open{
+        display: block!important;
+    }
+    .btn2-right.open{
+        display: block!important;
+    }
+    .containe2{   
+        overflow: auto;
+    }
     
 }
 @media(max-width:899px){ 
