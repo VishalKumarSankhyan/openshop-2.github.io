@@ -138,6 +138,8 @@ p{
     top: 98%;
     left: 0;
     right: 0;
+    max-height: 178px!important;
+    overflow:hidden;
   }
   input[type=text] {
       background-color: #fff;
@@ -316,6 +318,10 @@ p{
     box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
 }
 
+.s-3.shoow{
+    display: block!important;
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.3);
+}
 
 .l-navbar{
     will-change: transform;
@@ -374,6 +380,7 @@ p{
 }
 
 .hr1 hr{
+    background-color: #d5dbdb!important;
     width: 90%;
 }
 .menu-btn_burger::before,.menu-btn_burger::after{
@@ -443,7 +450,7 @@ p{
 .scrollmenu {
     background-color: #fff;
     overflow: hidden;
-    white-space: nowrap;
+    /*white-space: nowrap;*/
     display: flex; 
 }
 /*
@@ -465,7 +472,7 @@ p{
     border-radius: 50px;
 }
 */
-
+/*
 .scrollmenu a {
     display: inline-block;
     color: rgb(0, 0, 0);
@@ -473,17 +480,15 @@ p{
     padding: 5px;
     text-decoration: none;
 }
-  
+*/
 
 .new1{
+    display:grid;
     text-align: center;
     padding: 0px 30px;/*27*/
 
 }
-.new1:hover{
-    cursor: pointer;
-    background-color: rgb(255, 255, 255);
-}
+/*
 .new1 i{
     color:  #15c9f6;
     padding: 0px!important;
@@ -498,6 +503,7 @@ p{
     margin: 10px 0px;
     font-size: 17px;
 }
+*/
 .l-scroll{
     padding-top: 10px;
     width: 65px;
