@@ -108,7 +108,7 @@
         width: 30px!important;
     }
 
-    .new1 h2{
+    .l-scroll-h{
         margin: 8px 0px!important;
         font-size: 12px!important;
     }
@@ -143,6 +143,11 @@
     .containe2{   
         overflow: auto;
     }
+
+    .new1{
+        pointer-events: none!important;
+    } 
+    
     
 }
 @media(max-width:899px){ 
@@ -292,6 +297,9 @@
     .image-m {
         width: 100px!important;
     }
+    .nav-item2 p {
+        padding: 15px 15px!important;
+    }
 }
 
 @media(max-width:339px){ 
@@ -340,6 +348,17 @@
         width: 20px!important;
         
     }
+    #avatar.ytd-rich-grid-media {
+        width: 30px!important;
+        height: 30px!important;
+    }
+
+    .userimage {
+        padding-top: 6px!important;
+    }
+    .nav-item2 p {
+        padding: 15px 15px!important;
+    }
 
     .navbar-brand {
         font-size: 1.5rem!important;
@@ -352,6 +371,10 @@
         right: 36%!important;
     }
 
+    .l-navbar i {
+        margin-right: 25px!important;
+        font-size: 18px!important;
+    }
 
     .card-title {
         
@@ -477,6 +500,11 @@
         font-size: 0.7rem!important;
     }
 
+    .l-navbar i {
+        margin-right: 20px!important;
+        font-size: 16px!important;
+    }
+
     .clock{
         padding: 2px 5px;
     }
@@ -544,6 +572,11 @@
     .menu-btn_burger::before,.menu-btn_burger::after{
         width: 40px;
         height: 2px;
+    }
+
+    .l-navbar i {
+        margin-right: 15px!important;
+        font-size: 14px!important;
     }
 
     p {
