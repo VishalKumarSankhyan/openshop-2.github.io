@@ -47,47 +47,83 @@
 
           <ul class="l-navbar">
 
+
             <li class="nav-item2">
-              <p href="#"><img class="user_image" src="images\person-male.png" alt="user"> User Name</p>
+              <a href="" class="d-flex">
+                <div class="userimage">
+                  <yt-img-shadow id="avatar" width="48" class="style-scope ytd-rich-grid-media no-transition"
+                  style="background-color: transparent;" loaded="">
+                  <!--css-build:shady--><img id="img" class="style-scope yt-img-shadow" alt="" width="48"
+                    src="images/person-male.png">
+                </yt-img-shadow>
+                </div>
+
+                <p href="#">User Name</p>
+              </a>
             </li>
 
             <li class="nav-item1">
-              <p class="dropdown-item" href="#"><i class="fa fa-home"></i>Home</p>
-              <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>My Account</p>
-              <p class="dropdown-item" href="#"><i class="fa fa-archive"></i>Orders</p>
-              <p class="dropdown-item" href="#"><i class="fa fa-heart"></i>Wishlist</p>
-              <p class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i>Cart</p>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-home"></i>Home</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>My Account</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-archive"></i>Orders</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-heart"></i>Wishlist</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-shopping-cart"></i>Cart</p>
+              </a>
+              <a href="#">
+                <div class="hr1">
+                  <hr>
+                </div>
+            </li>
+
+            <li class="nav-item1">
+              <p class="explore-m">Explore</p>
+              <a href="#">
+                <p class="dropdown-item" href="#">Top Categories</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#">Today's Deals</p>
+              </a>
               <div class="hr1">
                 <hr>
               </div>
             </li>
 
             <li class="nav-item1">
-              <p>Explore</p>
-              <p class="dropdown-item" href="#">Top Categories</p>
-              <p class="dropdown-item" href="#">Today's Deals</p>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notification</p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-map" aria-hidden="true"></i>Select your address</p>
+              </a>
               <div class="hr1">
                 <hr>
               </div>
             </li>
 
             <li class="nav-item1">
-              <p class="dropdown-item" href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notification</p>
-              <p class="dropdown-item" href="#"><i class="fa fa-map" aria-hidden="true"></i>Select your address</p>
-              <div class="hr1">
-                <hr>
-              </div>
-            </li>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>24 x 7 Customer Care
+                </p>
+              </a>
+              <a href="#">
+                <p class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i>About Us</p>
+              </a>
 
-            <li class="nav-item1">
-              <p class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>24 x 7 Customer Care
-              </p>
-              <p class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i>About Us</p>
               <div class="hr1">
                 <hr>
               </div>
-              <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>Log Out</p>
-              <br>
+              <a href="">
+                <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>Log Out</p>
+              </a>
               <br>
             </li>
           </ul>
@@ -134,7 +170,7 @@
           <input type="text" class="form-control comment-2" id="myInput" onkeyup="getsearchvalue()"
             placeholder="Search">
           <div class="can1">
-            
+
             <svg focusable="false" onclick="clearsearch()" xmlns="http://www.w3.org/2000/svg" width="34" height="34"
               viewBox="0 0 16 27">
               <path
@@ -164,12 +200,22 @@
                 Login
               </a>
               <div class="dropdown-menu s-1 d1">
-                <p class="dropdown-item" href="#">New Customer ? <span href="#">Sign Up</span> </p>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#">New Customer ? <span href="">Sign Up</span></p>
+                </a>
 
-                <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>My Account</p>
-                <p class="dropdown-item" href="#"><i class="fa fa-archive"></i>Orders</p>
-                <p class="dropdown-item" href="#"><i class="fa fa-heart"></i>Wishlist</p>
-                <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>Log Out</p>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i>My Account</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-archive"></i>Orders</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-heart"></i>Wishlist</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-user-circle"></i>Log Out</p>
+                </a>
               </div>
             </li>
 
@@ -184,11 +230,19 @@
                 </div>
               </a>
               <div class="dropdown-menu s-2 d2">
-                <p class="dropdown-item" href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notification</p>
-                <p class="dropdown-item" href="#"><i class="fa fa-map" aria-hidden="true"></i>Select your address</p>
-                <p class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>24 x 7 Customer Care
-                </p>
-                <p class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i>About Us</p>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-bell" aria-hidden="true"></i>Notification</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-map" aria-hidden="true"></i>Select your address</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-question" aria-hidden="true"></i>24 x 7 Customer
+                    Care</p>
+                </a>
+                <a href="#" class="dra-1">
+                  <p class="dropdown-item" href="#"><i class="fa fa-users" aria-hidden="true"></i>About Us</p>
+                </a>
               </div>
             </li>
             <!-- Dropdown menu end-->
@@ -214,100 +268,1011 @@
 
   <!--link slider start-->
   <section class="slide1">
-    <div class="scrollmenu">
-      <!--
-      <div class="new1">
-        <img src="images\cement/birla-white-cement.png" alt="cement" width="19px">
-        <h2 href="#">Cement</h2>
-      </div>
-      -->
+    <div class="scrollmenu container-fluid">
+      <div class="new1 d_1 container" href="index1.html">
+        <a href="#" class="l-scroll-a"><img src="images\cement/modern-light.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Light</a>
+        <div class="dropdown-main">
+          <ul>
 
-      <div class="new1">
-        <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
-        <h2 href="#">Light</h2>
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">a
+                <i class="fa fa-angle-right"></i>
+              </a>
+
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">b
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">c
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">d
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/moduler switch.png" alt="cement" class="l-scroll">
-        <h2 href="#">Switch</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/moduler switch.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Switch</a>
+        <div class="dropdown-main">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">a
+                <i class="fa fa-angle-right"></i>
+              </a>
+
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">b
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">c
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">d
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/cera wash basin.png" alt="cement" class="l-scroll">
-        <h2 href="#">Basin</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/cera wash basin.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Basin</a>
+        <div class="dropdown-main">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">a
+                <i class="fa fa-angle-right"></i>
+              </a>
+
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">b
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">c
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">d
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/rain-shower.png" alt="cement" class="l-scroll">
-        <h2 href="#">Shower</h2>
-      </div>
-      <!--
-      <div class="new1">
-        <img src="images\cement/asianpaints royale shyne.png" alt="cement" width="19px">
-        <h2 href="#">Paint</h2>
-      </div>
-    -->
-      <div class="new1">
-        <img src="images\cement/sink.png" alt="cement" class="l-scroll">
-        <h2 href="#">Shink</h2>
-      </div>
-      <!--
-      <div class="new1">
-        <img src="images\cement/tmt bars.png" alt="cement" width="19px">
-        <h2 href="#">Bars</h2>
-      </div>
-      -->
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/rain-shower.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Shower</a>
+        <div class="dropdown-main">
+          <ul>
 
-      <div class="new1">
-        <img src="images\cement/cera brass.png" alt="cement" class="l-scroll">
-        <h2 href="#">brass</h2>
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">a
+                <i class="fa fa-angle-right"></i>
+              </a>
+
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">b
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">c
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">d
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/moduler switch.png" alt="cement" class="l-scroll">
-        <h2 href="#">Switch</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/sink.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Shink</a>
+        <div class="dropdown-main">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">a
+                <i class="fa fa-angle-right"></i>
+              </a>
+
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">b
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">c
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">d
+                <i class="fa fa-angle-right"></i>
+              </a>
+              <div class="dropdown-sub">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/cera wash basin.png" alt="cement" class="l-scroll">
-        <h2 href="#">Basin</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/cera brass.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">brass</a>
+        <div class="dropdown-main2">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                a
+              </a>
+
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                b
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#"><i class="fa fa-angle-left lefta"></i>
+                c
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                d
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/rain-shower.png" alt="cement" class="l-scroll">
-        <h2 href="#">Shower</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/moduler switch.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Switch</a>
+        <div class="dropdown-main2">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                a
+              </a>
+
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                b
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#"><i class="fa fa-angle-left lefta"></i>
+                c
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                d
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
-        <h2 href="#">Light</h2>
-      </div>
-      <!--
-      <div class="new1">
-        <img src="images\cement/asianpaints royale shyne.png" alt="cement" width="19px">
-        <h2 href="#">Paint</h2>
-      </div>
-    -->
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/sink.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Shink</a>
+        <div class="dropdown-main2">
+          <ul>
 
-      <div class="new1">
-        <img src="images\cement/sink.png" alt="cement" class="l-scroll">
-        <h2 href="#">Shink</h2>
-      </div>
-      <!--
-      <div class="new1">
-        <img src="images\cement/tmt bars.png" alt="cement" width="19px">
-        <h2 href="#">Bars</h2>
-      </div>
-    -->
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                a
+              </a>
 
-      <div class="new1">
-        <img src="images\cement/modern-light.png" alt="cement" class="l-scroll">
-        <h2 href="#">Light</h2>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                b
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#"><i class="fa fa-angle-left lefta"></i>
+                c
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                d
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
-      <div class="new1">
-        <img src="images\cement/moduler switch.png" alt="cement" class="l-scroll">
-        <h2 href="#">Switch</h2>
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/modern-light.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">Light</a>
+        <div class="dropdown-main2">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                a
+              </a>
+
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                b
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#"><i class="fa fa-angle-left lefta"></i>
+                c
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                d
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="new1 d_1 container">
+        <a href="#" class="l-scroll-a"><img src="images\cement/cera brass.png" alt="cement" class="l-scroll"></a>
+        <a href="#" class="l-scroll-h">brass</a>
+        <div class="dropdown-main2">
+          <ul>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                a
+              </a>
+
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">1</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">2</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">3</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">4</a>
+                  </li>
+                </ul>
+              </div>
+
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                b
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">5</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">6</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">7</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">8</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#"><i class="fa fa-angle-left lefta"></i>
+                c
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">9</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">10</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">11</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">12</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+
+            <li class=" cs1">
+              <a class="dropdown-a" href="#">
+                <i class="fa fa-angle-left lefta"></i>
+                d
+              </a>
+              <div class="dropdown-sub2">
+                <ul>
+                  <li>
+                    <a class="dropdown-a" href="#">13</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">14</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">15</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-a" href="#">16</a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
 
     </div>
