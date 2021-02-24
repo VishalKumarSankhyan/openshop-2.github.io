@@ -199,8 +199,6 @@ function leftfunction2(){
 
 /*scroll left right 2 end*/
 
-
-
 // drop down menu hover end
 drop1 = document.querySelector('.d1');
 m1 = document.querySelector('.s-1');
@@ -228,6 +226,7 @@ drop2.addEventListener('mouseout', function () {
     m2.classList.remove('shoow');
     z2.classList.remove('s111');
 })
+
 
 // drop down menu hover end
 
