@@ -2,45 +2,70 @@ var suggestion = ["Anchor",
   "Asianpaint",
   "Acc Blocks",
   "Ambuja cement",
+
   "Baja",
   "basin",
   "Brass",
   "Bosch",
   "Best offers",
   "Bathroom tiles",
+
   "Cera",
   "Cement",
   "Cera basin",
   "Cera Brass",
   "Cera shower",
   "Cera shower Panel",
+
   "Door",
   "Dr Fixit",
   "Door handle",
   "Deals of the Day",
-  
 
+  "Electric Fan",
+  "Electric Switch",
+  "Electric Appliances",
+  "Finolex",
   "Flooring",
 
+  "glanz",
   "godrej",
+
   "Hand Shower",
   "Hindware",
   "Havells",
 
+  "Indian tiles",
+  "Indian Switch",
+  "Indian Bathroom",
+  "Indian Kitchen",
+
   "Jsw",
   "Jaquar",
   "Jindal Panther",
+
   "Kajaria",
+
   "Light",
+
   "Marble",
   "Modern Light",
   "modern switches",
 
+  "New tiles",
+  "New Switch",
+  "New Bathroom",
+  "New Kitchen",
+
+  "orient",
 
   "Panel",
   "Parryware",
 
-  "Royale",
+  "Q",
+
+  "Red Tile",
+  "Red Paint",
 
   "Shink",
   "Shower",
@@ -50,10 +75,24 @@ var suggestion = ["Anchor",
   "Tile",
   "Tata Steel",
   "Trending offers",
+
+  "Unik",
   "Ultratech Cement",
 
+  "V",
+
+  "Water pipe",
+  "Water pump",
+  "Water tank",
+  "White Cement",
   "Wood flooring",
-  "White Cement"
+
+  "X",
+
+  "Y",
+
+  "Z"
+
 ]
 
 
