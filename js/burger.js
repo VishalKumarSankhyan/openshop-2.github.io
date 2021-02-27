@@ -92,76 +92,76 @@ function topfunction() {
 //search clear start
 c1 = document.querySelector('.can1');
 
-function getsearchvalue(){
-    var searchval =document.getElementById("myInput").value;
+function getsearchvalue() {
+    var searchval = document.getElementById("myInput").value;
     if (searchval) {
         c1.classList.add('open');
     }
-    else{
+    else {
         c1.classList.remove('open');
     }
 }
 
-function clearsearch(){
-    document.getElementById("myInput").value='';
+function clearsearch() {
+    document.getElementById("myInput").value = '';
     getsearchvalue()
 }
 //search clear end
 
 /*scroll left right start*/
-
+/*
 scr1 = document.querySelector('.containe');
 bt1 = document.querySelector('.btn-left');
 bt2 = document.querySelector('.btn-right');
 scrollFuncion1()
 
-var maxscrollleft = $(scr1).width()-6.5;
+var maxscrollleft = $(scr1).width() - 6.5;
 
 scr1.onscroll = function () { scrollFuncion1() };
 function scrollFuncion1() {
     if (scr1.scrollLeft > 30 || scr1.scrollLeft > 30) {
         bt1.classList.add('open');
     }
-    else{
-       bt1.classList.remove('open');
+    else {
+        bt1.classList.remove('open');
     }
 
     if (scr1.scrollLeft > maxscrollleft || scr1.scrollLeft > maxscrollleft) {
         bt2.classList.remove('open');
     }
-    else{
-       bt2.classList.add('open');
+    else {
+        bt2.classList.add('open');
     }
 
 }
 
 
-var sc=0;
+var sc = 0;
 
-function rightfunction(){
-    sc+=50;
+function rightfunction() {
+    sc += 50;
     scr1.scrollLeft = sc;
     scr1.scrollLeft = sc;
 }
 
-function leftfunction(){
-    sc=sc-50;
+function leftfunction() {
+    sc = sc - 50;
     scr1.scrollLeft = sc;
     scr1.scrollLeft = sc;
 }
 
-/*scroll left right end*/
+scroll left right end*/
 
 
 
-/*scroll left right start 2*/
+/*scroll left right start 2
 
 scr21 = document.querySelector('.containe2');
 bt21 = document.querySelector('.btn2-left');
 bt22 = document.querySelector('.btn2-right');
 scrollFuncion2()
 
-var maxscrollleft2 = $(scr1).width()-6.5;
+var maxscrollleft2 = $(scr21).width() - 6.5;
 
 scr21.onscroll = function () { scrollFuncion2() };
 
@@ -169,37 +169,39 @@ function scrollFuncion2() {
     if (scr21.scrollLeft > 30 || scr21.scrollLeft > 30) {
         bt21.classList.add('open');
     }
-    else{
-       bt21.classList.remove('open');
+    else {
+        bt21.classList.remove('open');
     }
 
     if (scr21.scrollLeft > maxscrollleft2 || scr21.scrollLeft > maxscrollleft2) {
         bt22.classList.remove('open');
     }
-    else{
-       bt22.classList.add('open');
+    else {
+        bt22.classList.add('open');
     }
 
 }
 
 
-var sc2=0;
+var sc2 = 0;
 
-function rightfunction2(){
-    sc2+=50;
+function rightfunction2() {
+    sc2 += 50;
     scr21.scrollLeft = sc2;
     scr21.scrollLeft = sc2;
 }
 
-function leftfunction2(){
-    sc2=sc2-50;
+function leftfunction2() {
+    sc2 = sc2 - 50;
     scr21.scrollLeft = sc2;
     scr21.scrollLeft = sc2;
 }
 
-/*scroll left right 2 end*/
+scroll left right 2 end*/
 
 // drop down menu hover end
+
+
 drop1 = document.querySelector('.d1');
 m1 = document.querySelector('.s-1');
 
@@ -247,3 +249,91 @@ $('.carousel.carousel-multi-item.v-2 .carousel-item').each(function () {
     }
 });
 //product slider
+
+slide_btn1 = document.querySelector('.slide-left');
+slide_btn2 = document.querySelector('.slide-right');
+
+var getslide1 = document.getElementById("slide111")
+var slidess1 = 0;
+
+function slideright1() {
+    if (slidess1 == -600){
+        slidess1 = -600;
+        getslide1.style.transform = "translateX(" + slidess1 + "px)";
+        
+    }
+    else{
+        getslide1.style.transform = "translateX(" + slidess1 + "px)";
+        slidess1 = slidess1 - 300;
+    }
+}
+
+function slideleft1() {
+    if (slidess1 == 0) {
+        getslide1.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess1 = slidess1 + 300;
+        getslide1.style.transform = "translateX(" + slidess1 + "px)";
+    }
+}
+
+
+var getslide2 = document.getElementById("slide112")
+var slidess2 = 0;
+
+function slideright2() {
+    if (slidess2 == -600){
+        slidess2 = -600;
+        getslide2.style.transform = "translateX(" + slidess2 + "px)";
+        
+    }
+    else{
+        getslide2.style.transform = "translateX(" + slidess2 + "px)";
+        slidess2 = slidess2 - 300;
+    }
+}
+
+function slideleft2() {
+    if (slidess2 == 0) {
+        getslide2.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess2 = slidess2 + 300;
+        getslide2.style.transform = "translateX(" + slidess2 + "px)";
+    }
+
+}
+
+
+var getslide3 = document.getElementById("slide113")
+var slidess3 = 0;
+
+function slideright3(){
+    
+    
+    if (slidess3 == -600){
+        slidess3 = -600;
+        getslide3.style.transform = "translateX(" + slidess3 + "px)";
+        
+    }
+    else{
+        getslide3.style.transform = "translateX(" + slidess3 + "px)";
+        slidess3 = slidess3 - 300;
+    }
+    
+}
+
+function slideleft3(){
+    if (slidess3 == 0) {
+        getslide3.style.transform = "translateX(" + 0 + "px)";
+    }
+   
+    else {
+        slidess3 = slidess3 + 300;
+        getslide3.style.transform = "translateX(" + slidess3 + "px)";
+    }
+
+}
